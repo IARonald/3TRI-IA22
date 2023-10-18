@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+html , body{
+    margin: 0;
+}
+
+main{
+    background-color: #171717;
+    border: 2px solid black;
+    height: 90vh;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.algo123{
+    display: flex;
+    height: 10vh;
+}
+
+.algo123 input{
+    flex-grow: 1;
+    padding: 0 2rem;
+}
+
+.message{
+    border: 2px solid #00ff5e;
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 1rem;
+    box-shadow: #00ff5e 0 0 5px;
+    width: 50%;
+}
+
+.message.self{
+    align-self: flex-end;
+    background-color: #00ff5e;
+    color: black;
+}
+
+button{
+    background-color: black;
+    padding: 0 2rem;
+    color: white;
+}
